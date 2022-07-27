@@ -12,7 +12,7 @@ import java.time.temporal.ChronoUnit;
 @Component
 @Primary
 @Qualifier("validacaoPeriodicidadeReajuste")
-public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajusteTest {
+public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste {
 
     @Override
     public void validar(Funcionario funcionario, BigDecimal aumento) throws Exception {

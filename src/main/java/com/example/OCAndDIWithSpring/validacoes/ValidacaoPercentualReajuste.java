@@ -9,7 +9,7 @@ import java.math.RoundingMode;
 
 @Component
 @Qualifier("validacaoPercentualReajuste")
-public class ValidacaoPercentualReajuste implements ValidacaoReajusteTest {
+public class ValidacaoPercentualReajuste implements ValidacaoReajuste {
     @Override
     public void validar(Funcionario funcionario, BigDecimal aumento) throws Exception {
         BigDecimal salarioAtual = funcionario.getSalario();

@@ -2,7 +2,7 @@ package com.example.OCAndDIWithSpring;
 
 import com.example.OCAndDIWithSpring.modelos.Funcionario;
 import com.example.OCAndDIWithSpring.servicos.ReajustePercentualService;
-import com.example.OCAndDIWithSpring.validacoes.ValidacaoReajusteTest;
+import com.example.OCAndDIWithSpring.validacoes.ValidacaoReajuste;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -22,7 +22,7 @@ public class OcAndDiWithSpringApplication implements CommandLineRunner {
 	}
 
 	/**
-	 * Executa todos os métodos de ValidacaoReajuste {@link ValidacaoReajusteTest}
+	 * Executa todos os métodos de ValidacaoReajuste {@link ValidacaoReajuste}
 	 * que implementam difernetes formas de injeção de dependências a partir
 	 * de uma interface com multiplas implementações
 	 *
