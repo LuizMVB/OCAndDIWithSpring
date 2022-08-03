@@ -1,4 +1,4 @@
-# Aplicando os conceitos de inversão de dependência e open closed do SOLID utilizando Spring Boot
+# Aplicando os conceitos de inversão de dependência e open closed do SOLID utilizando Spring (@Primary e @Qualifier)
 
 ## Introdução
 
