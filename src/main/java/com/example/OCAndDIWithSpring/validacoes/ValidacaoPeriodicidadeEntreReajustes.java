@@ -20,7 +20,7 @@ public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajuste {
         LocalDate dataAtual = LocalDate.now();
         long mesesDesdeUltimoReajuste = ChronoUnit.MONTHS.between(dataUltimoReajuste, dataAtual);
         if(mesesDesdeUltimoReajuste < 6){
-            throw new Exception("Intervalo entre reajustes deve ser menor que 6 meses");
+            throw new Exception("Intervalo entre reajustes não deve ser menor que 6 meses");
         }
     }
 }

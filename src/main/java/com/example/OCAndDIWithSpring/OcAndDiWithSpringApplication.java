@@ -28,10 +28,10 @@ public class OcAndDiWithSpringApplication implements CommandLineRunner {
 	 *
 	 * Saída esperada no console:
 	 *
-	 * reajustarSalarioFuncionarioComTodasValidacoes: Intervalo entre reajustes deve ser menor que 6 meses
+	 * reajustarSalarioFuncionarioComTodasValidacoes: Intervalo entre reajustes não deve ser menor que 6 meses
 	 * reajustarSalarioFuncionarioComTodasValidacoes: Reajuste não pode ser superior a 40%
 	 * reajustarSalarioFuncionarioValidandoPercentual: Reajuste não pode ser superior a 40%
-	 * reajustarSalarioFuncionarioValidandoPrincipal: Intervalo entre reajustes deve ser menor que 6 meses
+	 * reajustarSalarioFuncionarioValidandoPrincipal: Intervalo entre reajustes não deve ser menor que 6 meses
 	 */
 	@Override
 	public void run(String... args) {
